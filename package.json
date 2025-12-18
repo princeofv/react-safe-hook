@@ -42,7 +42,7 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/princeofv/react-safe-hook.git"
   },
   "engines": {
     "node": ">=16.0.0"
