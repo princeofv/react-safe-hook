@@ -1,0 +1,50 @@
+{
+  "name": "react-safe-hooks",
+  "version": "1.0.0",
+  "description": "Runtime-safe React hooks that warn developers about common hook misuse, stale closures, incorrect dependencies, and unsafe async state updates — without affecting production builds.",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build": "rollup -c",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "safe",
+    "development",
+    "debug",
+    "stale-closure",
+    "dependencies",
+    "warnings",
+    "typescript"
+  ],
+  "author": "Vijay J",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^18.0.0 || ^19.0.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^12.1.2",
+    "@types/node": "^25.0.3",
+    "@types/react": "^18.3.18",
+    "react": "^18.3.1",
+    "rollup": "^4.29.1",
+    "rollup-plugin-dts": "^6.1.1",
+    "tslib": "^2.8.1",
+    "typescript": "^5.7.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
