@@ -1,6 +1,6 @@
 {
   "name": "react-safe-hooks",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Runtime-safe React hooks that warn developers about common hook misuse, stale closures, incorrect dependencies, and unsafe async state updates — without affecting production builds.",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
